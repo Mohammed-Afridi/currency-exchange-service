@@ -17,3 +17,6 @@ when i run this now , http://localhost:8000/currency-exchange/from/USD/to/INR , 
   "conversionMultiple": 50,
   "environment": "8000"
 }
+
+In this commit ( ITC ) : we will se how to run the app with differetn ports
+use run configurations -> in the vm type -Dserver.port=8001 for a new run config
