@@ -8,3 +8,12 @@ Now will look at load balancing
 Currency Exchange-Instance 1   Currency Exchange-Instance 2   Currency Exchange-Instance 3
 
 When I call currency conversion ms, I'd need to know which instance I am calling
+
+when i run this now , http://localhost:8000/currency-exchange/from/USD/to/INR , I get
+{
+  "id": 1000,
+  "from": "USD",
+  "to": "INR",
+  "conversionMultiple": 50,
+  "environment": "8000"
+}
