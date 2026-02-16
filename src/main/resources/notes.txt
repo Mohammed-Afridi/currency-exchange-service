@@ -1,1 +1,10 @@
 here we are creating a new rest api for currency exchange service
+
+Now will look at load balancing
+                                    currency conversion microservice
+                                                ||
+                                           Load Balancer
+                                                ||
+Currency Exchange-Instance 1   Currency Exchange-Instance 2   Currency Exchange-Instance 3
+
+When I call currency conversion ms, I'd need to know which instance I am calling
